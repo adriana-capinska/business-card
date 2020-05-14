@@ -9,20 +9,19 @@ html{
 body{
     background-color: #2C2141;
     min-width: 100vh;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    width: 624px;
-    height: 320px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
  .main{
      background-color: #F8F8F8;
      border-radius: 16px;
      margin: 16px;
      padding: 32px;
-     display: flex;
-     justify-content: center;
-     align-content: center;
-     align-items: center;
+     width: 624px;
  }
 
 .person{
